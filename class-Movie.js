@@ -45,6 +45,16 @@ let pgMovies = Movie.getPG(movieArray);
 
 console.log(movie1); // (output for - d)
 
+// (output for - d) => Movie { title: 'Casino Royale', studio: 'Eon Productions', rating: 'PG13'}
+
 console.log(movie2); // (output for - b)
 
+// (output for - b) => Movie { title: 'Ghilli', studio: 'Sri Surya Movies', rating: 'PG' }
+
 console.log(pgMovies);  // (output for - c)
+
+/* (output for - c) => [
+  Movie { title: 'Ghilli', studio: 'Sri Surya Movies', rating: 'PG' },
+  Movie { title: 'Attahasam', studio: 'Vijayam Cine', rating: 'PG' },
+  Movie { title: 'Virumaandi', studio: 'Raj Kamal Films', rating: 'PG' }
+] */
